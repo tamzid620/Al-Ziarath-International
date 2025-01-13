@@ -55,13 +55,13 @@ const HomeFAQ = () => {
             <div key={index} className="mb-2">
               <button
                 onClick={() => toggleAccordion(index)}
-                className="flex justify-between items-center w-full text-left bg-[#25476a] hover:bg-[#21a1eb] text-white font-semibold py-4 px-6 rounded-lg focus:outline-none"
+                className="flex justify-between items-center w-full text-left bg-gradient-to-l from-[#399FE0] to-[#3062A9] hover:bg-gradient-to-r from-[#399FE0] to-[#3062A9] text-white font-semibold py-4 px-6 rounded-lg focus:outline-none"
               >
                 {item.question}
               <IoIosArrowDown />
               </button>
               {openIndex === index && (
-                <div className="bg-gray-100 p-4 rounded-lg border-l-4 border-purple-900">
+                <div className="bg-[#39a0e01e] p-4 rounded-lg border-l-4 border-purple-900">
                   {item.answer}
                 </div>
               )}

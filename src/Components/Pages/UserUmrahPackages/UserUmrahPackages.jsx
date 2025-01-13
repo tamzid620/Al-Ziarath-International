@@ -109,7 +109,7 @@ const UserUmrahPackages = () => {
             <div
               style={{ fontFamily: "Montserrat, serif" }}
               key={index}
-              className="relative bg-[#25476a] text-white  hover:shadow-lg hover:shadow-gray-500
+              className="relative bg-[#24487b] text-white  hover:shadow-lg hover:shadow-gray-500
                text-center leading-7 rounded-md h-[400px]"
             >
               <img
@@ -126,12 +126,12 @@ const UserUmrahPackages = () => {
                 </h1>
                 <p className=" text-sm ">{price}</p>
                 <p className="mt-2 flex justify-center ">
-                  <span className="mt-3 bg-[#21a1eb] px-3 rounded-md w-[120px] text-sm">
+                  <span className="mt-3 bg-[#399FE0] px-3 rounded-md w-[120px] text-sm">
                     {duration}
                   </span>
                 </p>
               </div>
-              <button className="absolute bottom-3 left-28 bg-gray-300 text-black font-semibold rounded-md px-3 py-1 hover:bg-[#21a1eb] hover:text-white">
+              <button className="absolute bottom-3 left-28 bg-gray-300 text-black font-semibold rounded-md px-3 py-1 hover:bg-gradient-to-r from-[#399FE0] to-[#3062A9] hover:text-white">
                 Know More
               </button>
             </div>

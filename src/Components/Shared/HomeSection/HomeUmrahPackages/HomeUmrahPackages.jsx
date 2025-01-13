@@ -69,7 +69,7 @@ const HomeUmrahPackages = () => {
           {/* support parent div  */}
           <div
             data-aos="fade-down"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             className="mt-10 grid lg:grid-cols-3 md:grid-cols-2 sm: grid-cols-1 gap-5 "
           >
             {/* ------------------------------------- */}
@@ -77,7 +77,7 @@ const HomeUmrahPackages = () => {
               <div
                 style={{ fontFamily: "Montserrat, serif" }}
                 key={index}
-                className="relative bg-[#25476a] text-white  hover:shadow-lg hover:shadow-gray-500
+                className="relative bg-[#24487b] text-white  hover:shadow-lg hover:shadow-gray-500
                text-center leading-7 rounded-md h-[400px]"
               >
                 <img
@@ -94,13 +94,14 @@ const HomeUmrahPackages = () => {
                   </h1>
                   <p className=" text-sm ">{price}</p>
                   <p className="mt-2 flex justify-center ">
-                    <span className="mt-3 bg-[#21a1eb] px-3 rounded-md w-[120px] text-sm">
+                    <span className="mt-3 bg-[#399FE0] px-3 rounded-md w-[120px] text-sm">
                       {duration}
                     </span>
                   </p>
                 </div>
-                <button className="absolute bottom-3 left-28 bg-gray-300 text-black font-semibold rounded-md px-3 py-1 hover:bg-[#21a1eb] hover:text-white">
-                <Link to="/under-construction">Know More</Link> 
+                <button className="absolute bottom-3 left-28 bg-gray-300 text-black font-semibold rounded-md px-3 py-1 hover:bg-gradient-to-r from-[#399FE0] to-[#3062A9] hover:text-white">
+                {/* <Link to="/under-construction">Know More</Link>  */}
+                <Link to="/umrah-packages">Know More</Link> 
                 </button>
               </div>
             ))}
@@ -108,7 +109,7 @@ const HomeUmrahPackages = () => {
 
           <div className="flex justify-center mt-20">
             <Link to="/umrah-packages">
-              <button className="bg-[#25476a] text-white font-semibold rounded-md px-8 py-2 uppercase shadow-md  hover:shadow-lg hover:shadow-gray-500">
+              <button className="bg-gradient-to-r from-[#399FE0] to-[#3062A9] text-white font-semibold rounded-md px-8 py-2 uppercase shadow-md  hover:bg-gradient-to-l from-[#399FE0] to-[#3062A9]">
                 View All
               </button>
             </Link>

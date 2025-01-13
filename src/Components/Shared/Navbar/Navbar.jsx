@@ -73,53 +73,68 @@ const Navbar = () => {
               gap-3"
           >
             <li>
-              <Link to="/"
-                 className={`md:p-4 py-2 block uppercase hover:text-[#539ce6] ${
-                  location.pathname === "/" ? "text-[#539ce6]" : ""
+              <Link
+                to="/"
+                className={`md:p-4 py-2 block uppercase hover:text-[#399FE0] ${
+                  location.pathname === "/" ? "text-[#399FE0]" : ""
                 }`}
               >
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/aboutUs"
-               className={`md:p-4 py-2 uppercase hover:text-[#539ce6] flex items-center relative ${
-                  location.pathname === "/aboutUs" ? "text-[#539ce6]" : ""
-                }`}>
+              <Link
+                to="/aboutUs"
+                className={`md:p-4 py-2 uppercase hover:text-[#399FE0] flex items-center relative ${
+                  location.pathname === "/aboutUs" ? "text-[#399FE0]" : ""
+                }`}
+              >
                 About Us
               </Link>
             </li>
             <li>
-              <Link to="/umrah-packages" 
-              className={`md:p-4 py-2 block uppercase hover:text-[#539ce6] ${
-                location.pathname === "/umrah-packages" ? "text-[#539ce6]" : ""
-              }`}>
+              <Link
+                to="/umrah-packages"
+                className={`md:p-4 py-2 block uppercase hover:text-[#399FE0] ${
+                  location.pathname === "/umrah-packages"
+                    ? "text-[#399FE0]"
+                    : ""
+                }`}
+              >
                 Umrah Packages
               </Link>
             </li>
             <li>
-              <Link to="/blog" 
-               className={`md:p-4 py-2 block uppercase hover:text-[#539ce6] ${
-                location.pathname === "/blog" ? "text-[#539ce6]" : ""
-              }`}>
+              <Link
+                to="/blog"
+                className={`md:p-4 py-2 block uppercase hover:text-[#399FE0] ${
+                  location.pathname === "/blog" ? "text-[#399FE0]" : ""
+                }`}
+              >
                 Blogs
               </Link>
             </li>
             <li>
-            <Link to="/contact"
-                className={`lg:flex md:hidden sm: hidden mt-1 px-4 py-3 uppercase text-white bg-[#25476a] hover:bg-[#21a1eb] hover:text-white rounded-md ${
-                  location.pathname === "/contact" ? "text-[#539ce6]" : ""
+              <Link
+                to="/contact"
+                className={`lg:flex md:hidden sm: hidden mt-1 px-4 py-3 uppercase text-white
+                   bg-gradient-to-r from-[#399FE0] to-[#3062A9]
+                 hover:bg-gradient-to-l from-[#399FE0] to-[#3062A9]
+                  hover:text-white rounded-md ${
+                  location.pathname === "/contact" ? "text-[#399FE0]" : ""
                 }`}
               >
                 Contact
               </Link>
             </li>
             <li>
-              <Link to=""
-               className={`lg:hidden md:flex sm: flex md:p-4 py-2 uppercase hover:text-[#539ce6] ${
-                location.pathname === "/contact" ? "text-[#539ce6]" : ""
-              }`}>
-              Contact
+              <Link
+                to=""
+                className={`lg:hidden md:flex sm: flex md:p-4 py-2 uppercase hover:text-[#399FE0] ${
+                  location.pathname === "/contact" ? "text-[#399FE0]" : ""
+                }`}
+              >
+                Contact
               </Link>
             </li>
           </ul>

@@ -32,7 +32,7 @@ const HomeSupport = () => {
         <div className="bg-white text-black">
         <div
         data-aos="fade-down"
-        data-aos-duration="2000"
+        data-aos-duration="1000"
         className=" py-20 lg:max-w-5xl md:max-w-3xl sm: max-w-sm lg:mx-auto md:mx-5 sm: mx-4 "
       >
         <div className="grid lg:grid-cols-4 md:grid-cols-2 sm: grid-cols-1 gap-5">

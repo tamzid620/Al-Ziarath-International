@@ -35,7 +35,7 @@ const HomeVIsitOffice = () => {
                 all of our classrooms, medical labs, and student facilities.
               </p>
               <div className=" flex md:justify-start sm: justify-center mt-10 mb-10">
-                <button className=" bg-[#25476a] text-white font-semibold rounded-md px-4 py-2 uppercase shadow-md  hover:shadow-lg hover:shadow-gray-500">
+                <button className=" bg-gradient-to-r from-[#399FE0] to-[#3062A9] text-white font-semibold rounded-md px-4 py-2 uppercase shadow-md  hover:bg-gradient-to-l from-[#399FE0] to-[#3062A9]">
                   <Link to="/contact" target="_blank">
                     Schedule a Visit
                   </Link>

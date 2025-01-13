@@ -1,14 +1,14 @@
 import footerimg from "../../../assets/icons/Logo White.png";
 import faceBookLogo from "../../../assets/icons/Facebook_Logo.png";
 import LinkdinLogo from "../../../assets/icons/Linkdin_logo.png";
-import YoutubeLogo from "../../../assets/icons/Youtube_logo.png";
+import InstagramLogo from "../../../assets/icons/instagram.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div  style={{ fontFamily: "Taviraj, serif" }}>
       <div
-        className="bg-[#25476a] text-white grid lg:grid-cols-4 md:grid-cols-2 sm: grid-cols-1 gap-10 mx-auto p-8"
+        className="bg-gradient-to-l from-[#399FE0] to-[#3062A9] text-white grid lg:grid-cols-4 md:grid-cols-2 sm: grid-cols-1 gap-10 mx-auto p-8"
       >
         {/* footer div 1  */}
         <div>
@@ -20,53 +20,58 @@ const Footer = () => {
             service provider in town.
           </p>
           <p className="flex mt-5 gap-5">
-            <span>
+            <Link to="https://www.facebook.com/alziarath" target="_blank">
               <img
-                className="w-[30px] hover:shadow-xl hover:shadow-gray-600 hover:scale-[1.1]"
+                className="w-[35px] hover:shadow-xl hover:shadow-gray-600 hover:scale-[1.1]"
                 src={faceBookLogo}
                 alt=""
               />
-            </span>
-            <span>
+            </Link>
+            {/* <Link to="" target="_blank">
               <img
-                className="w-[30px] hover:shadow-xl hover:shadow-gray-600 hover:scale-[1.1]"
+                className="w-[35px] hover:shadow-xl hover:shadow-gray-600 hover:scale-[1.1]"
                 src={LinkdinLogo}
                 alt=""
               />
-            </span>
-            <span>
+            </Link> */}
+            <Link to="https://www.instagram.com/alziarath_246" target="_blank">
               <img
-                className="w-[30px] hover:shadow-xl hover:shadow-gray-600 hover:scale-[1.1]"
-                src={YoutubeLogo}
+                className="w-[35px] hover:shadow-xl hover:shadow-gray-600 hover:scale-[1.1]"
+                src={InstagramLogo}
                 alt=""
               />
-            </span>
+            </Link>
           </p>
         </div>
         {/* footer div 2  */}
-        <div style={{ fontFamily: "Montserrat, serif" }}>
+        <div style={{ fontFamily: "Montserrat, serif" }} className="text-center">
           <h1  style={{ fontFamily: "Taviraj, serif" }} className="font-bold text-xl pb-5">Useful Links</h1>
-          <p >ABOUT US</p>
-          <p>EVENT</p>
-          <p>OUR TEAM</p>
-          <p>STUDENT VISA</p>
+          <Link className="hover:underline" to="umrah-packages">ABOUT US</Link> <br />
+          <Link className="hover:underline" to="umrah-packages">EVENT</Link><br />
+          <Link className="hover:underline" to="umrah-packages">OUR TEAM</Link><br />
+          <Link className="hover:underline" to="umrah-packages">STUDENT VISA</Link>
         </div>
         {/* footer div 3  */}
-        <div>
+        <div  className="text-center">
           <h1 className="font-bold text-xl pb-5">Location</h1>
           <p style={{ fontFamily: "Montserrat, serif" }}>
-            House# 77, Flat # 9a, Road # 4, Block # C Banani, Dhaka
-            loremipsum.edu.com
+          57, mirzapool k-plaza , <br /> Chittagong, Bangladesh, 4212
           </p>
         </div>
         {/* footer div 4  */}
-        <div>
+        <div  className="text-center">
           <h1 className="font-bold text-xl pb-5">Hotline</h1>
-          <p style={{ fontFamily: "Montserrat, serif" }}>+8801569569523</p>
+          <p style={{ fontFamily: "Montserrat, serif" }}  className="hover:underline">+8801515-243278</p>
         </div>
       </div>
-      <p className="bg-[#25476a] text-white flex justify-center py-2 uppercase text-xs">© 2024 Umrah. All rights reserved by
-      <span className="ms-1 hover:text-[#539ce6]"><Link to="https://marketienltd.com/" target="_blank"> Marketien</Link></span></p>
+{/* footer 2 ------------------------------------------- */}
+      <p style={{ fontFamily: "Montserrat, serif" }} 
+      className="bg-gradient-to-l from-[#399FE0] to-[#3062A9] text-white flex justify-center py-4 uppercase text-sm">
+        © 2024 Umrah. All rights reserved by
+      <span className="ms-1 underline hover:text-black">
+        <Link to="https://marketienltd.com/" target="_blank"> Marketien</Link>
+      </span>
+      </p>
     </div>
   );
 };

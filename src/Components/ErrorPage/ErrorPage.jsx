@@ -1,7 +1,7 @@
 const ErrorPage = () => {
   return (
     <div>
-      <section className=" flex items-center justify-center min-h-screen bg-[#25476a]">
+      <section className=" flex items-center justify-center min-h-screen bg-gradient-to-r from-[#399FE0] to-[#3062A9]">
         <div className=" container text-center">
           <div className="mx-auto max-w-[400px]">
             <h2 className="mb-2 text-[50px] font-bold leading-none text-white sm:text-[80px] md:text-[100px]">

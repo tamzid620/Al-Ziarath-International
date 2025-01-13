@@ -145,7 +145,7 @@ const HomeContact = () => {
                   ) : (
                     <button
                       type="submit"
-                      className="my-8 bg-[#25476a] text-white font-semibold rounded-md px-8 py-2 uppercase shadow-md  hover:shadow-lg hover:shadow-gray-500"
+                      className="my-8 bg-gradient-to-r from-[#399FE0] to-[#3062A9] text-white font-semibold rounded-md px-8 py-2 uppercase shadow-md  hover:bg-gradient-to-l from-[#399FE0] to-[#3062A9]"
                     >
                       Send
                     </button>

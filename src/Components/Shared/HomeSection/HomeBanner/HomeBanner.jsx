@@ -34,7 +34,7 @@ const HomeBanner = () => {
               <button
                 data-aos="fade-down"
                 data-aos-duration="2000"
-                className="mt-10 bg-gray-100 text-black hover:bg-[#25476a] hover:text-white
+                className="mt-10 bg-gray-100 text-black hover:bg-gradient-to-r from-[#399FE0] to-[#3062A9] hover:text-white
                  px-4 py-2 rounded font-bold"
               >
                 Free Assessment
