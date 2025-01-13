@@ -19,9 +19,9 @@ const AboutUs = () => {
           style={{ fontFamily: "Taviraj, serif" }}
           className=" lg:max-w-6xl md:max-w-3xl sm:max-w-sm lg:mx-auto md:px-7 sm: px-4 leading-10 text-lg"
         >
-          <h1 className="font-semibold ">At Umrah,</h1>
+          <h1 className="font-semibold ">At Al Ziarath International,</h1>
           <p className="mb-5">
-            we believe that every journey is a story, and the story of Umrah is
+            we believe that every journey is a story, and the story of Al Ziarath International is
             one that carries the soul to new heights. We don’t just arrange
             trips; we guide pilgrims on a spiritual path they will remember
             forever. Born from a passion to serve, our agency combines profound
@@ -31,7 +31,7 @@ const AboutUs = () => {
           <p className="mb-5">
             Every member of our team is committed to not only facilitating your
             travel but understanding your journey. We know that for each person,
-            Umrah is a personal calling, and we strive to honor that by
+            Al Ziarath International is a personal calling, and we strive to honor that by
             providing unparalleled support, guidance, and care. From
             pre-departure guidance to heartfelt assistance along the way, we
             stand by you so that your focus remains on the sacred experience.
@@ -44,7 +44,7 @@ const AboutUs = () => {
             honor of helping you fulfill your calling.
           </p>
           <p className="mb-5">
-            Our mission is to make your Umrah experience one of deep connection,
+            Our mission is to make your Al Ziarath International experience one of deep connection,
             peace, and spiritual enrichment. With years of experience, we’ve
             designed our services to honor each pilgrim's unique path, offering
             you a journey as personal as your faith.
@@ -63,7 +63,7 @@ const AboutUs = () => {
             <span className="font-semibold me-2">
               • Experience You Can Trust:{" "}
             </span>{" "}
-            We bring years of specialized experience in Umrah travel, a deep
+            We bring years of specialized experience in Al Ziarath International travel, a deep
             understanding of rituals, and thorough knowledge of the sacred
             cities. This experience allows us to anticipate and meet the needs
             of our clients, no matter their background or familiarity with the
@@ -90,7 +90,7 @@ const AboutUs = () => {
           {/*------------------- Our Promise to You section--------------- */}
           <h1 className="font-semibold mb-5">Our Promise to You</h1>
           <p className="mb-5">
-            In the essence of Umrah, our promise is to walk alongside you with
+            In the essence of Al Ziarath International, our promise is to walk alongside you with
             empathy and support, creating an atmosphere where every moment is
             cherished. We handle the complexities, the planning, and the details
             so you can immerse yourself in what truly matters—the purity of
@@ -98,7 +98,7 @@ const AboutUs = () => {
             closeness to the divine.
           </p>
           <p className="mb-5">
-            When you choose Umrah, you’re choosing a team dedicated
+            When you choose Al Ziarath International, you’re choosing a team dedicated
             to making your pilgrimage as meaningful as possible. Join us, and
             let us serve you on this extraordinary journey of faith.
           </p>

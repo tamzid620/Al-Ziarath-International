@@ -117,12 +117,11 @@ const Navbar = () => {
             <li>
               <Link
                 to="/contact"
-                className={`lg:flex md:hidden sm: hidden mt-1 px-4 py-3 uppercase text-white
+                className="lg:flex md:hidden sm: hidden mt-1 px-4 py-3 uppercase text-white
                    bg-gradient-to-r from-[#399FE0] to-[#3062A9]
                  hover:bg-gradient-to-l from-[#399FE0] to-[#3062A9]
-                  hover:text-white rounded-md ${
-                  location.pathname === "/contact" ? "text-[#399FE0]" : ""
-                }`}
+                  hover:text-white rounded-md
+                "
               >
                 Contact
               </Link>
@@ -130,8 +129,8 @@ const Navbar = () => {
             <li>
               <Link
                 to=""
-                className={`lg:hidden md:flex sm: flex md:p-4 py-2 uppercase hover:text-[#399FE0] ${
-                  location.pathname === "/contact" ? "text-[#399FE0]" : ""
+                className={`lg:hidden md:flex sm: flex md:p-4 py-2 uppercase text-[#399FE0] hover:text-[#399FE0] ${
+                  location.pathname === "/contact" ? "" : ""
                 }`}
               >
                 Contact

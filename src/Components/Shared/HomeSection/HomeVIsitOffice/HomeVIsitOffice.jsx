@@ -21,18 +21,17 @@ const HomeVIsitOffice = () => {
                 style={{ fontFamily: "Taviraj, serif" }}
                 className="font-semibold text-xl"
               >
-                Visit Our Campus
+                Visit Our Office
               </h1>
               <p
                 style={{ fontFamily: "Montserrat, sans-serif" }}
                 className="my-5"
               >
                 Take the first step in achieving your career goals by visiting
-                the AIMS campus. During your school visit you'll get to meet
+                the Office. During your visit you'll get to meet
                 one-on-one with an admissions specialist. They'll help you
                 choose the right career path and answer any questions you have.
-                You'll also get the chance to tour the AIMS campus, including
-                all of our classrooms, medical labs, and student facilities.
+                You'll also get the chance to tour the Office
               </p>
               <div className=" flex md:justify-start sm: justify-center mt-10 mb-10">
                 <button className=" bg-gradient-to-r from-[#399FE0] to-[#3062A9] text-white font-semibold rounded-md px-4 py-2 uppercase shadow-md  hover:bg-gradient-to-l from-[#399FE0] to-[#3062A9]">

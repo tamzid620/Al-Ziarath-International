@@ -15,17 +15,17 @@ const data = [
   {
     icon: icon1,
     title: " Our Location",
-    disc: "House# 77, Flat # 9a, Road # 4, Block # C Banani, Dhaka",
+    disc: "57, mirzapool k-plaza ,Chittagong, Bangladesh, 4212",
   },
   {
     icon: icon2,
     title: "Email Adress",
-    disc: "umrahDB@yahoo.com",
+    disc: "alziarath0246@gmail.com",
   },
   {
     icon: icon3,
     title: "Call Us",
-    disc: "+8801800000000",
+    disc: "+8801515-243278",
   },
 ];
 
@@ -173,7 +173,7 @@ const ContactUs = () => {
                 ) : (
                   <button
                     type="submit"
-                    className="my-8 bg-[#25476a] text-white font-semibold rounded-md px-8 py-2 uppercase shadow-md  hover:shadow-lg hover:shadow-gray-500"
+                    className="my-8 bg-gradient-to-r from-[#399FE0] to-[#3062A9] hover:bg-gradient-to-l from-[#399FE0] to-[#3062A9] text-white font-semibold rounded-md px-8 py-2 uppercase shadow-md "
                   >
                     Send
                   </button>

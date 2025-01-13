@@ -14,10 +14,7 @@ const Footer = () => {
         <div>
           <img className="w-[80px] pb-3" src={footerimg} alt="" />
           <p style={{ fontFamily: "Montserrat, serif" }}>
-          Al Ziarath International is a professional International education and immigration
-            consultant based in Dhaka & Chittagong, Bangladesh. We are the first
-            ICEF certified agent in Chittagong and one of the best education
-            service provider in town.
+          Alziarath International providing Hajj & Umrah services for over 23+ years with honesty and dignity.
           </p>
           <p className="flex mt-5 gap-5">
             <Link to="https://www.facebook.com/alziarath" target="_blank">
@@ -46,10 +43,9 @@ const Footer = () => {
         {/* footer div 2  */}
         <div style={{ fontFamily: "Montserrat, serif" }} className="text-center">
           <h1  style={{ fontFamily: "Taviraj, serif" }} className="font-bold text-xl pb-5">Useful Links</h1>
-          <Link className="hover:underline" to="umrah-packages">ABOUT US</Link> <br />
-          <Link className="hover:underline" to="umrah-packages">EVENT</Link><br />
-          <Link className="hover:underline" to="umrah-packages">OUR TEAM</Link><br />
-          <Link className="hover:underline" to="umrah-packages">STUDENT VISA</Link>
+          <Link className="hover:underline" to="/aboutUs">ABOUT US</Link> <br />
+          <Link className="hover:underline" to="/aboutUs">EVENT</Link><br />
+          <Link className="hover:underline" to="/aboutUs">OUR TEAM</Link>
         </div>
         {/* footer div 3  */}
         <div  className="text-center">
@@ -67,7 +63,7 @@ const Footer = () => {
 {/* footer 2 ------------------------------------------- */}
       <p style={{ fontFamily: "Montserrat, serif" }} 
       className="bg-gradient-to-l from-[#399FE0] to-[#3062A9] text-white flex justify-center py-4 uppercase text-sm">
-        © 2024 Umrah. All rights reserved by
+        © 2024 Al Ziarath International . All rights reserved by
       <span className="ms-1 underline hover:text-black">
         <Link to="https://marketienltd.com/" target="_blank"> Marketien</Link>
       </span>
