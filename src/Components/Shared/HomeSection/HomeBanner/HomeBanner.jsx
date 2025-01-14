@@ -16,7 +16,7 @@ const HomeBanner = () => {
     <div className="lg:pt-[92px] md:pt-[80px] sm: pt-[100px]">
       <div
         style={backgroundStyles}
-        className="relative flex items-center justify-center w-full lg:h-[800px] md:h-[500px] sm: h-[500px]"
+        className="relative flex items-center justify-center bg-white w-full lg:h-[800px] md:h-[500px] sm: h-[500px]"
       >
         <div className="absolute inset-0 bg-black opacity-50" />
         <div className="w-full max-w-md relative flex justify-center">
