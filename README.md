@@ -1,3 +1,5 @@
+Apostrophe : ’
+
 • primary_color : #25476a;
 => Light blue: #399FE0;
 => dark blue: #3062A9 ;

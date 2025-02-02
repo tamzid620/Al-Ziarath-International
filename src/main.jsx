@@ -10,6 +10,9 @@ import ContactUs from "./Components/Pages/ContactUs/ContactUs";
 import AboutUs from "./Components/Pages/AboutUs/AboutUs";
 import Blog from "./Components/Pages/Blog/Blog";
 import UnderConstruction from "./Components/Pages/UnderConstruction/UnderConstruction";
+import DashBoardLayout from "./Components/Layout/DashBoardLayout";
+import DashBoard from "./Components/Pages/AdminPanel/DashBoard/DashBoard";
+import AdminLogin from "./Components/Pages/AdminPanel/AdminLogin/AdminLogin";
 
 const router = createBrowserRouter([
   {
@@ -41,6 +44,21 @@ const router = createBrowserRouter([
       {
         path: "/under-construction",
         element: <UnderConstruction />,
+      },
+      {
+        path: "/adminLogin",
+        element: <AdminLogin/>
+      },
+    ],
+  },
+  {
+    path: "/dp",
+    element: <DashBoardLayout />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: "/dp",
+        element: <DashBoard />,
       },
     ],
   },
